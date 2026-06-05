@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Web Technology Exam</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>WEB TECHNOLOGY PRACTICAL EXAM</h1>
+
+    <div class="info">
+        <p><b>STUDENT NAME:</b> Nikita Petkuns</p>
+        <p><b>CURRENT DATE:</b> 05.06.2026</p>
+        <p><b>SUBJECT:</b> Web Technology</p>
+    </div>
+</header>
+
+<!-- TASK NAV -->
+<nav class="nav">
+    <button onclick="showTask(1)">1</button>
+    <button onclick="showTask(2)">2</button>
+    <button onclick="showTask(3)">3</button>
+    <button onclick="showTask(4)">4</button>
+    <button onclick="showTask(5)">5</button>
+    <button onclick="showTask(6)">6</button>
+    <button onclick="showTask(7)">7</button>
+    <button onclick="showTask(8)">8</button>
+    <button onclick="showTask(9)">9</button>
+    <button onclick="showTask(10)">10</button>
+    <button onclick="showTask(11)">11</button>
+    <button onclick="showTask(12)">12</button>
+    <button onclick="showTask(13)">13</button>
+    <button onclick="showTask(14)">14</button>
+    <button onclick="showTask(15)">15</button>
+    <button onclick="showTask(16)">16</button>
+    <button onclick="showTask(17)">17</button>
+    <button onclick="showTask(18)">18</button>
+    <button onclick="showTask(19)">19</button>
+    <button onclick="showTask(20)">20</button>
+    <button onclick="showTask(21)">21</button>
+    <button onclick="showTask(22)">22</button>
+    <button onclick="showTask(23)">23</button>
+    <button onclick="showTask(24)">24</button>
+    <button onclick="showTask(25)">25</button>
+    <button onclick="showTask(26)">26</button>
+    <button onclick="showTask(27)">27</button>
+    <button onclick="showTask(28)">28</button>
+    <button onclick="showTask(29)">29</button>
+    <button onclick="showTask(30)">30</button>
+</nav>
+
+<!-- ACTIVE TASK -->
+<section class="task-box">
+
+    <h2 id="taskTitle">Select a Task</h2>
+    <p id="taskDesc">Click a number above to start</p>
+
+    <div id="taskContent"></div>
+
+    <button onclick="runTask()">Run Task</button>
+
+    <div id="result"></div>
+
+</section>
+
+<!-- COMPLETED -->
+<section class="done">
+
+    <h2>Completed Tasks</h2>
+    <div id="completed"></div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
